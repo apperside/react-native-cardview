@@ -33,10 +33,7 @@ class CardView extends Component {
       return (
         <RNCardView {...this.props}>
           <View
-            style={{
-              paddingRight,
-              paddingBottom
-            }}
+            style={this.props.style}
           >
             {this.props.children}
           </View>
